@@ -298,6 +298,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 136px;
+    margin-bottom: 189px;
 }
 .seventh h1 {
     width: 70%;
@@ -317,13 +318,6 @@ nav a:hover {
 .seventh h1:after {
     margin-left: 10px
   }
-
-
-
-
-
-
-
 .seventh p {
     width: 70%;
     text-align: center;
@@ -357,4 +351,46 @@ textarea {
 }
 .textarea {
     margin-top: 5%;
+}
+/* დაიწყო footer  */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footDV1 {
+    width: 35%;
+}
+.footDV1 img {
+    width: 100%;
+}
+.footDV2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footDV2 p {
+    font-size: 16px;
+}
+.black {
+    width: 50%;
+    border-bottom: 2px solid black;
+}
+.icones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.icones img {
+    margin-right: 3%;
+}
+.footDV3 {
+    width: 30%;
+}
+.footDV3 img {
+    width: 90%;
 }
