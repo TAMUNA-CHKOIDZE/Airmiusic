@@ -59,6 +59,7 @@ ul a {
 nav a:hover {
     border-bottom: 3px solid #C898FF;
 }
+/* დაიწყო first section */
   .AirmusicAwesomeSoundsAirpods {
       width: 100%;
       display: flex;
@@ -86,7 +87,7 @@ nav a:hover {
       width: 50%;
     /* background-image: url("../image/triangle.png"); */
   }
-  .airpods {
+  .Airpods {
       width: 100%;
   }
   .second{
