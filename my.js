@@ -8,54 +8,49 @@ faqs.forEach(fa => {
 })
 
 // დაიწყო fifth section
-let userRecomendation = [
+let images = [
     {
         photo: "./image/airpodsBlack.png"
     },
     {
-        photo: "./image/airpodswhite.png"
+        photo: "./image/airpodsWhite.png"
     },
     {
-        photo: "./image/airpods red.png"
+        photo: "./image/airpodsRed.png"
     },
     {
-        photo: "./image/airpods blue.jpg"
+        photo: "./image/airpodsBlue.jpg"
     }
 ]
 
-
 let currentIndex = 0;
-    // bullets();
+
     setActiveBullets();
     next();
+
     
     function next(){
         let nextSlideIndex = currentIndex + 1;
-        
-        if(nextSlideIndex > userRecomendation.length - 1){
+        if(nextSlideIndex > images.length - 1){
             nextSlideIndex = 0;
         }
         setActiveSlide(nextSlideIndex);
     };
     
-    
+
     function setActiveBullets(){
-        let bullet = document.getElementById('bullet');
-        let buttons = document.querySelectorAll('.color bullet');
-        for(let i = 0; i < buttons.length; i++){
-            buttons[i].classList.remove('active');
-            buttons[i].addEventListener('click', function(){
+        let bullets = document.querySelector('.bullets');
+        for(let i = 0; i < bullets.length; i++){
+            bullets[i].addEventListener('click', function(){
                 setActiveSlide(i);
             });
-           
         }
-        buttons[currentIndex].classList.add('active');
     };
     
     function setActiveSlide(newIndex){
         currentIndex = newIndex;
         let image = document.querySelector('.airpods');
-        image.src = userRecomendation[currentIndex].photo;
+        image.src = images[currentIndex].photo;
 
         setActiveBullets();
     };
