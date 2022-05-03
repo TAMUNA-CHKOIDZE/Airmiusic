@@ -37,9 +37,8 @@ let currentIndex = 0;
         setActiveSlide(nextSlideIndex);
     };
     
-
     function setActiveBullets(){
-        let bullets = document.querySelector('.bullets');
+        let bullets = document.querySelectorAll('.bullets .bullet');
         for(let i = 0; i < bullets.length; i++){
             bullets[i].addEventListener('click', function(){
                 setActiveSlide(i);
@@ -49,7 +48,8 @@ let currentIndex = 0;
     
     function setActiveSlide(newIndex){
         currentIndex = newIndex;
-        let image = document.querySelector('.airpods');
+        let image = document.querySelector('.EARPONES');
+        image.classList.add('volume');
         image.src = images[currentIndex].photo;
 
         setActiveBullets();

@@ -5,11 +5,6 @@
     display: flex;
     flex-direction: column;
 }
-
-.first {
-    width: 100%;
-}
-
 header {
     width: 90%;
     margin: 0 auto;
@@ -18,7 +13,7 @@ header {
     justify-content: space-between;
 }
 header p {
-    width: 45%;
+    width: 20%;
     font-size: 68px;
 }
 .navBTN {
@@ -29,9 +24,7 @@ header p {
 }
 nav  {
     width: 80%;
-    /* overflow: hidden; */
 }
-
 nav ul {
     width: 100%;
     list-style-type: none;
@@ -39,7 +32,7 @@ nav ul {
     align-items: center;
 }
 ul a {
-     padding-right: 7%;
+     padding-right: 5%;
      font-size: 16px;
      border-bottom: 1px solid transparent;
      text-decoration: none;
@@ -59,15 +52,15 @@ ul a {
 nav a:hover {
     border-bottom: 3px solid #C898FF;
 }
-/* დაიწყო first section */
-  .AirmusicAwesomeSoundsAirpods {
-      width: 100%;
+/* დაიწყო first section  */
+  .first {
+      width: 90%;
+      margin: 0 auto;
       display: flex;
       align-items: center;
   }
   .AirmusicAwesomeSounds {
       width: 50%;
-      padding-left: 6%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -83,13 +76,10 @@ nav a:hover {
       line-height: 40px;
       margin-bottom: 50px;
   }
-  .triangleAirpods {
+  .AIRPODS {
       width: 50%;
-    /* background-image: url("../image/triangle.png"); */
   }
-  .Airpods {
-      width: 100%;
-  }
+  /* დაიწყო second section  */
   .second{
       width: 100%;
       height: 813px;
@@ -121,12 +111,12 @@ nav a:hover {
 }
   .third h2 {
     font-size: 40px;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
     margin-left: 12%;
   }
   .strips {
       float: right;
-      margin-top: -30%;
+      margin-top: -23%;
   }
   .thirdFeatures {
       width: 80%;
@@ -136,15 +126,15 @@ nav a:hover {
   }
   .Features {
       width: 31%;
-      height: 446px;
+      height: 400px;
       display: flex;
       flex-direction: column;
       align-items: center;
       background-color: #FFFFFF;
       border-radius: 3%;
       margin-right: 2%;
-      margin-bottom: 7%;
-      padding-top: 13%;
+      margin-bottom: 5%;
+      padding-top: 5%;
       position: relative;
   }
   .Features:before {
@@ -232,7 +222,7 @@ nav a:hover {
       border: 1px solid black;
       padding-left: 5%;
       border-radius: 7px;
-      margin-bottom: -4%;
+      margin-bottom: -6%;
   }
   .question h3 {
       margin-left: 4%;
@@ -248,13 +238,12 @@ nav a:hover {
     align-items: center;
     border: 1px solid black;
     border-top: 0;
-    padding: 5% 7%;
+    padding: 5% 5%;
     transition: max-height 1.4 ease;
     display: none;
   }
   .faq .active .answer {
     display: flex;
-    
   }
   .faq .active svg {
       transform: rotate(180deg);
@@ -264,12 +253,14 @@ nav a:hover {
       width: 100%;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       margin: 0 auto;
   }
   .imageDIV {
-    width: 60%;
+    width: 55%;
     height: 1018px;
     background-image: url("/image/big.png");
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .color1 {
@@ -284,7 +275,11 @@ nav a:hover {
     margin-left: 18%;
     margin-top: 12%;
 }
-.color1 .bullets {
+.volume {
+    width: 50%;
+    height: 50%;
+}
+.BULLETS {
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -319,21 +314,21 @@ nav a:hover {
     font-size: 22px;
     margin-right: 5%;
 }
-.selectColor .bullets {
+.bullets {
     width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
 }
-.black1 {
+#black1 {
     border-radius: 50%;
     background-color: black;
     width: 24px;
     height: 24px;
     margin-right: 2%;
 }
-.white {
+#white {
     border-radius: 50%;
     border: 1px solid black;
     background-color: white;
@@ -341,14 +336,14 @@ nav a:hover {
     height: 22px;
     margin-right: 2%;
 }
-.red {
+#red {
     border-radius: 50%;
     background-color: #FF4848;
     width: 24px;
     height: 24px;
     margin-right: 2%;
 }
-.blue {
+#blue {
     border-radius: 50%;
     background-color: #72A1FF;
     width: 24px;
@@ -473,26 +468,27 @@ textarea {
 footer {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .footDV1 {
-    width: 35%;
+    width: 33.3%;
 }
 .footDV1 img {
     width: 100%;
 }
 .footDV2 {
-    width: 35%;
+    width: 33.3%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 .footDV2 p {
     font-size: 16px;
 }
 .black {
-    width: 50%;
+    width: 60%;
     border-bottom: 2px solid black;
 }
 .icones {
@@ -500,14 +496,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
 }
 .icones a {
     margin-right: 3%;
 }
 .footDV3 {
-    width: 30%;
+    width: 33.3%;
 }
 .footDV3 img {
-    width: 90%;
+    width: 100%;
 }
