@@ -76,6 +76,18 @@ nav a:hover {
       line-height: 40px;
       margin-bottom: 50px;
   }
+  .AirmusicAwesomeSoundsBTN {
+    width: 40%;
+    height: 80px;
+    border-radius: 50px; 
+    font-size: 16px;
+    border: 1px solid transparent;
+    cursor: pointer; 
+  }
+  .AirmusicAwesomeSoundsBTN:hover {
+    background-color: #72A1FF;
+    color: #FFFFFF;
+}
   .AIRPODS {
       width: 50%;
   }
@@ -286,15 +298,8 @@ nav a:hover {
     align-items: center;
     margin-bottom: 5px;
 }
-.medium {
-    margin-left: 60%;
-}
-.mediumSMALL {
-    /* margin-top: -90%; */
-    margin-bottom: 120px;
-}
 .orderNow {
-    width: 40%;
+    width: 42%;
 }
 .orderNowP1 {
     width: 100%;
@@ -506,4 +511,99 @@ footer {
 }
 .footDV3 img {
     width: 100%;
+}
+/* რესპონსივი 1024-ზე */
+@media (max-width: 1024px){
+    header p {
+        width: 17%;
+        font-size: 52px;
+    }
+    .navBTN {
+        width: 78%;
+    }
+    .AirmusicAwesomeSounds h1 {
+        font-size: 40px;
+    }
+    .AirmusicAwesomeSoundsBTN {
+        height: 60px;
+        margin-bottom: 5%; 
+    }
+    .airpods2 {
+        margin-top: -45%;
+        margin-left: 18%;
+    }
+    .strips {
+          display: none;
+    }
+    .Features {
+        height: 350px;
+    }
+    .FeaturesP2 {
+        font-size: 12px;
+        padding: 2px;
+    }
+    .faqContainer {
+        width: 100%;
+    }
+    .imageDIV {
+        width: 60%;
+        height: 450PX;
+        background-image: none;
+        display: flex;
+        align-items: center;
+    }
+    .color1{
+        height: 100%;
+        margin-top: -10%;
+    }
+    .BULLETS{
+        margin-top: 25%;
+    }
+    .orderNow {
+        width: 40%;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+     .orderNowP1 {
+        display: none;
+    }
+    .orderNowP2 {
+       display: none;
+    }
+    .EARPONES {
+        width: 100%;
+    }
+    .selectColor {
+        flex-direction: column;
+        width: 100%;
+    }
+    .selectColor p {
+        width: 100%;
+        font-size: 30px;
+        margin-right: 0%;
+    }
+    .bullets{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .priceP1{
+        font-size: 27PX;
+    }
+    .priceP2{
+        font-size: 30PX;
+    }
+    .orderNowBTN {
+        width: 200px;
+        height: 63px;
+        font-size: 20px;
+    }
+   
+ 
+
+
+
+
+
+
 }
