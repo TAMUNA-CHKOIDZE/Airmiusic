@@ -13,7 +13,7 @@ let images = [
         photo: "./image/airpodsBlack.png"
     },
     {
-        photo: "./image/airpodsWhite.png"
+        photo: "./image/airpodswhite.png"
     },
     {
         photo: "./image/airpodsRed.png"
